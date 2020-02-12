@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "net.cuddlebat.manyacharacter.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+	"ChatMessageC2SPacketMixin"
+  ],
+  "client": [
+	"ChatScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "manyacharacter",
+  "version": "${version}",
+
+  "name": "Many a character",
+  "description": "A mod that increases the 256 characters limit on messages to 16384.",
+  "authors": [
+    "des-cuddlebat"
+  ],
+  "contact": {
+    "homepage": "https://cuddlebat.net/",
+    "sources": "https://github.com/des-cuddlebat/many-a-character"
+  },
+
+  "license": "MIT",
+  "icon": "assets/manyacharacter/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+  },
+  "mixins": [
+    "manyacharacter.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.2",
+    "fabric": "*",
+    "minecraft": "1.15.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
